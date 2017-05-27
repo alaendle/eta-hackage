@@ -78,10 +78,12 @@ These packages are supported by `etlas`.
 - [blaze-html-0.8.1.3](https://hackage.haskell.org/package/blaze-html-0.8.1.3)
 - [blaze-html-truncate-0.3.0.0](https://hackage.haskell.org/package/blaze-html-truncate-0.3.0.0)
 - [blaze-markup-0.7.1.1](https://hackage.haskell.org/package/blaze-markup-0.7.1.1)
+- [bmp-1.2.6.3](https://hackage.haskell.org/package/bmp-1.2.6.3)
 - [Boolean-0.2.3](https://hackage.haskell.org/package/Boolean-0.2.3)
 - [byteable-0.1.1](https://hackage.haskell.org/package/byteable-0.1.1)
 - [bytestring-builder-0.10.8.1.0](https://hackage.haskell.org/package/bytestring-builder-0.10.8.1.0)
 - [call-stack-0.1.0](https://hackage.haskell.org/package/call-stack-0.1.0)
+- [carray-0.1.6.6](https://hackage.haskell.org/package/carray-0.1.6.6)
 - [case-insensitive-1.2.0.7](https://hackage.haskell.org/package/case-insensitive-1.2.0.7)
 - [cassava-0.4.5.1](https://hackage.haskell.org/package/cassava-0.4.5.1)
 - [cereal-0.5.4.0](https://hackage.haskell.org/package/cereal-0.5.4.0)
@@ -106,10 +108,7 @@ These packages are supported by `etlas`.
 - [data-default-instances-old-locale-0.0.1](https://hackage.haskell.org/package/data-default-instances-old-locale-0.0.1)
 - [deepseq-1.4.2.0](https://hackage.haskell.org/package/deepseq-1.4.2.0)
 - [deepseq-generics-0.2.0.0](https://hackage.haskell.org/package/deepseq-generics-0.2.0.0)
-- [directory-1.3.0.0](https://hackage.haskell.org/package/directory-1.3.0.0)
-- [directory-1.3.0.1](https://hackage.haskell.org/package/directory-1.3.0.1)
-- [directory-1.3.0.2](https://hackage.haskell.org/package/directory-1.3.0.2)
-- [directory-1.3.1.0](https://hackage.haskell.org/package/directory-1.3.1.0)
+- [directory >= 1.3.0.0 && <= 1.3.10](https://hackage.haskell.org/package/directory)
 - [directory-tree-0.12.1](https://hackage.haskell.org/package/directory-tree-0.12.1)
 - [disjoint-sets-st-0.1](https://hackage.haskell.org/package/disjoint-sets-st-0.1)
 - [distributive >= 0.5.0.2 && <= 0.5.2](https://hackage.haskell.org/package/distributive-0.5.2)
@@ -167,6 +166,7 @@ These packages are supported by `etlas`.
 - [ieee754-0.8.0](https://hackage.haskell.org/package/ieee754-0.8.0)
 - [interval-1.20160821](https://hackage.haskell.org/package/interval-1.20160821)
 - [iproute-1.7.1](https://hackage.haskell.org/package/iproute-1.7.1)
+- [ix-shapable-0.1.0](https://hackage.haskell.org/package/ix-shapable-0.1.0)
 - [js-flot-0.8.3](https://hackage.haskell.org/package/js-flot-0.8.3)
 - [js-jquery-3.1.1](https://hackage.haskell.org/package/js-jquery-3.1.1)
 - [kan-extensions-5.0.1](https://hackage.haskell.org/package/kan-extensions-5.0.1)
@@ -250,11 +250,14 @@ These packages are supported by `etlas`.
 - [regex-tdfa-1.2.2](https://hackage.haskell.org/package/regex-tdfa-1.2.2)
 - [relacion-0.1](https://hackage.haskell.org/package/relacion-0.1)
 - [repa-3.4.1.2](https://hackage.haskell.org/package/repa-3.4.1.2)
+- [repa-algorithms-3.4.1.1](https://hackage.haskell.org/package/repa-algorithms-3.4.1.1)
+- [repa-eval-4.0.0.2](https://hackage.haskell.org/package/repa-eval-4.0.0.2)
+- [repa-io-3.4.1.1](https://hackage.haskell.org/package/repa-io-3.4.1.1)
 - [resourcet >= 1.1.8.1 && <= 1.1.9](https://hackage.haskell.org/package/resourcet-1.1.9)
 - [randproc-0.4](https://hackage.haskell.org/package/randproc-0.4)
 - [safe >= 0.3.9 && <= 0.3.11](https://hackage.haskell.org/package/safe-0.3.11)
-- [servant-0.9.1.1](https://hackage.haskell.org/package/servant-0.9.1.1)
-- [servant-docs-0.9.1.1](https://hackage.haskell.org/package/servant-docs-0.9.1.1)
+- [servant >= 0.9.1.1 && <= 0.11](https://hackage.haskell.org/package/servant)
+- [servant-docs >= 0.9.1.1 && <= 0.10.0.1](https://hackage.haskell.org/package/servant-docs)
 - [servant-server-0.9.1.1](https://hackage.haskell.org/package/servant-server-0.9.1.1)
   - NOTE: Servant.Utils.StaticFiles is disabled.
 - [setenv-0.1.1.3](https://hackage.haskell.org/package/setenv-0.1.1.3)
@@ -273,6 +276,7 @@ These packages are supported by `etlas`.
 - [stm-chans-3.0.0.4](https://hackage.haskell.org/package/stm-chans-3.0.0.4)
   - NOTE: The patch just changes the Build-Type. Should be restored once Cabal
           can be compiled with Eta.
+- [storable-complex-0.2.2](https://hackage.haskell.org/package/storable-complex-0.2.2)
 - [string-conversions-0.4.0.1](https://hackage.haskell.org/package/string-conversions-0.4.0.1)
 - [stringsearch-0.3.6.6](https://hackage.haskell.org/package/stringsearch-0.3.6.6)
 - [syb-0.6](https://hackage.haskell.org/package/syb-0.6)
@@ -430,6 +434,10 @@ If you have already forked this repository, then skip to step 3.
    
 9. Update this `README.md` with the package name (in alphabetical order) in the
    **Supported Packages** section in the same format as the other packages.
+
+   If there already exists an entry for an older or newer version of the package,
+   please consolidate the new versions into the existing entry. You can see the
+   `directory` entry as an example.
 
 10. In your `eta-hackage` repository,
 
